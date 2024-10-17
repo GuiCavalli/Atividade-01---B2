@@ -27,6 +27,8 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
+
+
 package com.example.recyclerviewexample
 
 import android.view.LayoutInflater
@@ -59,9 +61,14 @@ class MyAdapter(private val items: List<Item>) : RecyclerView.Adapter<MyAdapter.
     override fun getItemCount() = items.size
 }
 
+
+
+
 package com.example.recyclerviewexample
 
 data class Item(val title: String, val description: String)
+
+
 
 
 
@@ -78,6 +85,8 @@ data class Item(val title: String, val description: String)
 </LinearLayout>
 
 
+
+    
  <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
